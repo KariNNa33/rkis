@@ -3,12 +3,14 @@ const express = require("express");
 const path = require("path");
 const http = require("http");
 const routerCar = require("./routes/car.route");
+const morgan = require("morgan");
 
 const app = express();
 const server = http.createServer(app)
 
 const port = process.env.PORT || 3003;
 
+app.use(morgan('dev'));
 app.use(express.json()); //работа с форматом json
 app.use(express.urlencoded({ extended: true })); //что бы можно было передавать параметры
 

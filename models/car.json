@@ -1,16 +1,8 @@
 [
-    {
-         "id":1,
-         "name": "logan",
-         "model": "renault",
-         "years": 2018,
-         "price": 6500000
-    },
-    {
-        "id": 2,
-        "name": "priora",
-        "model": "lada",
-        "years": 2012,
-        "price": 850000
-   }
+  { "id": 1, "name": "logan", "model": "renault", "years": 2018, "price": 6500000 },
+  { "id": 2, "name": "priora", "model": "lada", "years": 2012, "price": 850000 },
+  { "id": 3, "name": "per5wyvry6", "model": "lada", "price": 850000, "years": 20012 },
+  { "id": 4, "name": "per5wyvry6", "model": "lada", "price": 850000, "years": 20012 },
+  { "id": 5, "name": "per5wyvry6", "model": "lada", "price": 850000, "years": 20012 },
+  { "id": 6, "name": "per5wyvry6", "model": "lada", "price": 850000, "years": 20012 }
 ]
